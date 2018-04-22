@@ -22,6 +22,7 @@ namespace Consid.Controllers
 
         public ActionResult Contact()
         {
+            throw new Exception();
             ViewBag.Message = "Your contact page.";
 
             return View();
